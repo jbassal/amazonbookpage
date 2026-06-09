@@ -1,0 +1,48 @@
+/* General styling */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+a{
+    color: #007185;
+}
+
+p{
+}
+
+/* Classes */
+
+.container{    
+    display: flex;
+    padding: 30px 20px;
+/*  justify-content: space-around;
+    margin: 0px auto; */
+    gap: 30px;
+    border: 3px solid #595959;
+    }
+
+.breadcrumb{
+    color: #565959;
+    text-decoration: none;
+}
+
+.main-img {
+    box-shadow: 0px 2px 5px lightgray;
+    width: 300px;
+}
+
+.metadata{
+    width: 400;
+}
+
+.title {
+    font-weight: lighter;
+}
+
+.rating-img{
+    height: 20px;
+}
+
